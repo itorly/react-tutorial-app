@@ -10,3 +10,17 @@ function createDivElement() {
 
 // Sample usage (do not modify)
 console.log(createDivElement());
+
+
+function createTitle() {
+    return React.createElement(
+        "h1",
+        {
+            className: "hero-title"
+        },
+        "Welcome to SuperM"
+    );
+}
+
+// Sample usage (do not modify)
+console.log(createTitle());
