@@ -20,3 +20,10 @@ react_dom_root.render(
     </div>
 );
 
+// Using React Fragment
+react_dom_root.render(
+    <>
+        {h1}
+        {p}
+    </>
+);
